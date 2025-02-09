@@ -1,0 +1,84 @@
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Keeps everything in bounds */
+    text-align: center;
+    border: 2px solid #f4a261; /* Warm pizza-themed border */
+    box-sizing: border-box;
+  }
+  
+  /* Heading */
+  h2 {
+    margin-bottom: 10px;
+    color: #e63946; /* Pizza red */
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Groups */
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%; /* Keeps input inside the box */
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 100%; /* Fixes input width */
+    padding: 10px;
+    border: 2px solid #f4a261; /* Orange accent */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box; /* Prevents input overflow */
+  }
+  
+  .input-group input:focus {
+    border-color: #e63946; /* Red focus */
+  }
+  
+  /* Login Button */
+  .login-btn {
+    width: 100%;
+    background: #e63946; /* Pizza red */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .login-btn:hover {
+    background: #d62828; /* Darker red */
+  }
+  
