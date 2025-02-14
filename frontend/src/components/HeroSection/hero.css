@@ -226,10 +226,10 @@ button {
 }
 
 .main_box {
-  margin-top: 3rem;
-  padding: 4rem;
+  /* margin-top: 3rem; */
+  /* padding: 4rem; */
   /* gap: 0; */
-  background-color: rgba(245, 245, 245, 0.884);
+  /* background-color: rgba(245, 245, 245, 0.884); */
   /* min-height: 80%; */
   /* border: 1px solid red; */
   width: 80%;
@@ -514,7 +514,7 @@ button {
   background-image: url('../../assets/contactThumb1_1.png');
   background-position: center;
   background-size: cover;
-  background-color: #010f1c;
+  background-color: black;
   /* background-color: transparent; */
   display: flex;
   flex-direction: column;

@@ -63,12 +63,13 @@
 .shop_items{
     height: 85% ;
     padding: 1rem;
+    /* padding-top: .2rem; */
     width: 70%;
     /* border: 1px solid red; */
     overflow: hidden;
     overflow-y: scroll;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 1rem; /
 }
 

@@ -1,8 +1,11 @@
 import { useState } from "react";
 import "./Login.css"; // Import the CSS file
 import { Link, useNavigate } from "react-router-dom";
+import { useAuth } from "../../context/AuthContext";
 
 const Login = () => {
+  const {login} = useAuth()
+  const [error, setError] = useState(null);
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -16,33 +19,13 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+    setError(null); 
+
     try {
-      const response = await fetch("http://localhost:3000/user/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ email: formData.email, password: formData.password })
-      });
-  
-      const data = await response.json();
-  
-      if (!response.ok) {
-        throw new Error(data.message || "Invalid email or password!");
-      }
-  
-      alert("Login successful!");
-  
-      if (data.token) {
-        localStorage.setItem("authToken", data.token);
-      }
-  
-     navigate('/')
-  
+      const success = await login(formData.email, formData.password);
+      if (success) navigate("/");
     } catch (error) {
-      console.error("Login Error:", error);
-      alert(error.message);
+      setError(error.message);
     }
   };
   

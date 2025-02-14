@@ -9,10 +9,13 @@ import burger2 from "../../assets/burger2.png";
 import dishes from "../../assets/dishes3_1.jpg";
 import dishes2 from "../../assets/dishes3_5.jpg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 const Hero = () => {
   return (
     <>
+    <Navbar/>
       <section id="hero_section">
         <div className="hero_info">
           <h2>WELCOME FRESH MEAT</h2>
@@ -127,6 +130,7 @@ const Hero = () => {
               <button>order now</button>
             </div>
           </div>
+          
           <div className="box">
             <img src={dish2} alt="" />
             <div className="info">

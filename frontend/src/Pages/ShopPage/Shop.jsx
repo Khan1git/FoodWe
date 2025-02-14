@@ -3,12 +3,15 @@ import Link from "../../components/LinkSection/Link";
 import "./shop.css";
 import { useState } from "react";
 import dish from "../../assets/dishes2_1.png";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 const Shop = () => {
   const [value, setValue] = useState(50);
 
   return (
     <>
+    <Navbar/>
       <Link name={"SHOP"} />
 
       <section className="shop_conatiner">
@@ -65,6 +68,56 @@ const Shop = () => {
               </div>
             </div>
            
+            
+            <div className="item">
+              <img src={dish} alt="" />
+              <div className="info">
+                <h1>Chicken</h1>
+                <p>The Registration fee</p>
+                <h3>$58</h3>
+                <button>order now</button>
+              </div>
+            </div>
+            
+            <div className="item">
+              <img src={dish} alt="" />
+              <div className="info">
+                <h1>Chicken</h1>
+                <p>The Registration fee</p>
+                <h3>$58</h3>
+                <button>order now</button>
+              </div>
+            </div>
+            
+            <div className="item">
+              <img src={dish} alt="" />
+              <div className="info">
+                <h1>Chicken</h1>
+                <p>The Registration fee</p>
+                <h3>$58</h3>
+                <button>order now</button>
+              </div>
+            </div>
+            
+            <div className="item">
+              <img src={dish} alt="" />
+              <div className="info">
+                <h1>Chicken</h1>
+                <p>The Registration fee</p>
+                <h3>$58</h3>
+                <button>order now</button>
+              </div>
+            </div>
+            
+            <div className="item">
+              <img src={dish} alt="" />
+              <div className="info">
+                <h1>Chicken</h1>
+                <p>The Registration fee</p>
+                <h3>$58</h3>
+                <button>order now</button>
+              </div>
+            </div>
             
             <div className="item">
               <img src={dish} alt="" />
