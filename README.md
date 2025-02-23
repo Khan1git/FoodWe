@@ -8,14 +8,17 @@
 <div align="center">
 
 <table>
-  <tr>
-    <td><img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400"></td>
-    <td><img src="assets/Screenshot 2025-02-23 224118.png="Cart Page" width="400"></td>
-  </tr>
-  <tr>
-    <td><img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="400"></td>
+    <tr>
+    <td><img src="assets/admin.png" alt="Admin Dashboard" width="400"></td>
     <td><img src="assets/Screenshot 2025-02-23 224041.png" alt="Checkout Page" width="400"></td>
   </tr>
+  <tr>
+    <td><img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400" ></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Screenshot 2025-02-23 224118.png="Cart Page" width="400"></td>
+  </tr>
+
 </table>
 
 </div>
