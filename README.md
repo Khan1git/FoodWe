@@ -1,8 +1,25 @@
 # **🍔 FoodWe - A Modern Food Ordering Website**
 ### **Delicious, Responsive, and Fully Functional MERN Stack Food Ordering Platform**
-![FoodWe Banner](https://via.placeholder.com/1200x400?text=FoodWe+Banner)  
+
 
 > **FoodWe** is a **beautiful and responsive food ordering website** where users can explore, add food items (like **pizzas, burgers, etc.**) to the cart, and place orders. It also features an **Admin Dashboard** to manage food items efficiently. Built using the **MERN stack** for a seamless experience.  
+
+---
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400"></td>
+    <td><img src="assets/cart.png" alt="Cart Page" width="400"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="400"></td>
+    <td><img src="assets/checkout.png" alt="Checkout Page" width="400"></td>
+  </tr>
+</table>
+
+</div>
+
 
 ---
 
@@ -123,9 +140,15 @@ The **FoodWe** website is designed with:
 ## **📞 Need Help? Have Questions?**
 💬 Feel free to ask! I'll answer your queries one by one.  
 
+--- 
+Project Images
+
+
 ---
 
 ## **📜 License**
 This project is **open-source** and available under the **MIT License**.  
 
 ---
+
+![FoodWe Banner](assets/Vite-React-02-23-2025_10_34_PM.png)
