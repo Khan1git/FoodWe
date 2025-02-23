@@ -10,11 +10,11 @@
 <table>
   <tr>
     <td><img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400"></td>
-    <td><img src="assets/cart.png" alt="Cart Page" width="400"></td>
+    <td><img src="assets/Screenshot 2025-02-23 224118.png="Cart Page" width="400"></td>
   </tr>
   <tr>
     <td><img src="assets/admin-dashboard.png" alt="Admin Dashboard" width="400"></td>
-    <td><img src="assets/checkout.png" alt="Checkout Page" width="400"></td>
+    <td><img src="assets/Screenshot 2025-02-23 224041.png" alt="Checkout Page" width="400"></td>
   </tr>
 </table>
 
