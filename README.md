@@ -51,18 +51,6 @@
 
 ---
 
-## **📸 Screenshots**
-### 🏠 **Homepage**
-![Homepage](https://via.placeholder.com/1200x700?text=Homepage+Screenshot)  
-
-### 🛒 **Cart Page**
-![Cart Page](https://via.placeholder.com/1200x700?text=Cart+Page+Screenshot)  
-
-### 📊 **Admin Dashboard**
-![Admin Dashboard](https://via.placeholder.com/1200x700?text=Admin+Dashboard+Screenshot)  
-
----
-
 ## **🔧 Installation & Setup**
 Follow these steps to run the project locally:
 
