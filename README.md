@@ -16,7 +16,7 @@
     <td><img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400" ></td>
   </tr>
   <tr>
-    <td><img src="assets/Screenshot 2025-02-23 224118.png="Cart Page" width="400"></td>
+    <td><img src="assets/cart.png"Cart Page" width="400"></td>
   </tr>
 
 </table>
