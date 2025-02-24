@@ -139,15 +139,9 @@ The **FoodWe** website is designed with:
 ## **📞 Need Help? Have Questions?**
 💬 Feel free to ask! I'll answer your queries one by one.  
 
---- 
-Project Images
-
-
 ---
 
 ## **📜 License**
 This project is **open-source** and available under the **MIT License**.  
 
 ---
-
-![FoodWe Banner](assets/Vite-React-02-23-2025_10_34_PM.png)
