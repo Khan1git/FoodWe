@@ -22,10 +22,12 @@
         <img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400" >
     </td>
     <td>
-        <p>Home Page</p>
+        <p>About Page</p>
          <img src="assets/about.png" alt="Homepage" width="400" >
         <p>Cart Page</p>
         <img src="assets/cart.png"Cart Page" width="400">
+        <p>Checkout Page</p>
+        <img src="assets/checkout.png"Cart Page" width="400">
     </td>
     </td>
   </tr>
