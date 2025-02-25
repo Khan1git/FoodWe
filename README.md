@@ -19,13 +19,18 @@
   <tr>
     <td>
         <p>Home Page</p>
-        <img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400" ></td>
-  </tr>
-  <tr>
+        <img src="assets/Vite-React-02-23-2025_10_34_PM.png" alt="Homepage" width="400" >
+    </td>
     <td>
-        <p>Shop Ui</p>
-        <img src="assets/cart.png"Cart Page" width="400"></td>
+        <p>Home Page</p>
+         <img src="assets/about.png" alt="Homepage" width="400" >
+        <p>Cart Page</p>
+        <img src="assets/cart.png"Cart Page" width="400">
+    </td>
+    </td>
   </tr>
+    <td>
+
 
 </table>
 
